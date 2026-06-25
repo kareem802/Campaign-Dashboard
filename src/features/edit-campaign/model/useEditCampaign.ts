@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useCampaignStore, campaignApi, Campaign, CampaignFormData, CampaignStatus } from '@/entities/campaign';
+import { useCampaignStore, campaignApi, Campaign, CampaignFormData } from '@/entities/campaign';
 import { useToast } from '@/shared/ui';
 import { validateCampaignForm, ValidationErrors } from '@/features/add-campaign';
 
