@@ -46,7 +46,7 @@ src/
 
 ### FSD Architecture
 
-Selected to demonstrate familiarity with scalable frontend architecture conventions — a deliberate choice for portfolio and presentation value. For a project of this scope, a simpler structure (flat `components/` folder with co-located hooks) would be more practical, though less scalable. To manage the added complexity, some shared-layer components were adapted from a prior personal project with style adjustments, allowing me to meet the deadline without compromising the architectural approach.
+Selected to demonstrate familiarity with scalable frontend architecture conventions, a deliberate choice for presentation. For a project of this scope, a simpler structure (flat `components/` folder with co-located hooks) would be more practical, though less scalable. To manage the added complexity, some shared-layer components were adapted from a prior personal project with style adjustments, allowing me to meet the deadline without compromising the architectural approach.
 
 ### Other Decisions
 
