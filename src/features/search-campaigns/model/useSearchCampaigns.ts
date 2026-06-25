@@ -3,7 +3,7 @@ import { Campaign } from '@/entities/campaign';
 import { useDebounce } from '@/shared/lib/hooks';
 
 export function useSearchCampaigns(campaigns: Campaign[], searchQuery: string) {
-  const debouncedQuery = useDebounce(searchQuery, 300);
+  const debouncedQuery = useDebounce(searchQuery, 400);
 
   const filteredCampaigns = useMemo(() => {
     if (!debouncedQuery.trim()) {

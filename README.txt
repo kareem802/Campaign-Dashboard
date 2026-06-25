@@ -54,7 +54,7 @@ To manage the added complexity, some shared-layer components were adapted from a
 
 - localStorage: acts as persistence layer, only campaignApi.ts touches it
 
-- Mock API: simulated async delays (500–800ms) to demonstrate loading/error states
+- Mock API: simulated async delays (500–800ms) to demonstrate loading state
 
 - Card layout: works cleanly on both mobile and desktop
 
